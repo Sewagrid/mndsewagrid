@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,6 +33,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MNDS\PhpstormProjects\Project\src\pics" />
+      <recent name="C:\Users\MNDS\PhpstormProjects\Project\example" />
       <recent name="C:\Users\MNDS\PhpstormProjects\Project\src" />
       <recent name="C:\Users\MNDS\PhpstormProjects\Project\css" />
     </key>
@@ -143,6 +145,15 @@
       <workItem from="1570278729737" duration="1731000" />
       <workItem from="1570300941852" duration="824000" />
       <workItem from="1570302012366" duration="1452000" />
+      <workItem from="1570355210475" duration="1765000" />
+      <workItem from="1570357048271" duration="645000" />
+      <workItem from="1570359031000" duration="1825000" />
+      <workItem from="1570360979889" duration="1800000" />
+      <workItem from="1570362984251" duration="1852000" />
+      <workItem from="1570376109105" duration="1768000" />
+      <workItem from="1570377913930" duration="1788000" />
+      <workItem from="1570379780052" duration="1673000" />
+      <workItem from="1570381700091" duration="1660000" />
     </task>
     <servers />
   </component>
