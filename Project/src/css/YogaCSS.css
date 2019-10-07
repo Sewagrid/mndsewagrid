@@ -1,52 +1,33 @@
-.header {
-  position: fixed; }
-
-#navigation {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  background: #ffffff;
-  width: 1920px; }
-
-.flex_container {
-  display: flex;
-  justify-content: center;
-  margin-right: 4px;
-  height: 100px; }
-
-.flex_element {
-  padding-left: 25px;
-  margin-top: 45px;
-  color: #000000;
-  text-decoration: none; }
-
-.flex_element_pic {
-  margin-top: 15px;
-  padding-left: 187px;
-  padding-right: 187px; }
-
-.flex_element_underline {
-  padding-left: 25px;
-  margin-top: 45px;
-  color: #5363db;
-  text-decoration: none; }
+ul {
+  height: 100px;
+  width: 100%; }
+  ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif; }
+  ul .first_li {
+    margin-left: 528px;
+    padding-right: 24px;
+    color: #5363db; }
+  ul .last_li {
+    margin-right: 528px; }
+  ul .mid_li_l {
+    padding-right: 24px; }
+  ul .li_left {
+    padding-right: 187px; }
+  ul .li_right {
+    padding-left: 187px; }
+  ul .mid_li_r {
+    padding-right: 24px;
+    padding-left: 24px; }
+  ul .pic {
+    margin-top: 16px; }
 
 .line {
-  width: 25px;
+  width: 30px;
   height: 1px;
-  position: absolute;
   border-bottom: 1px solid #5363db;
-  margin: -36px 0 0 560px; }
-
-.card {
-  width: 300px;
-  height: 390px;
-  border: 1px solid black;
-  font-size: 25px;
-  color: #ffffff;
-  border-radius: 10px;
-  margin: -200px 0 0 616px;
-  z-index: 99999; }
+  margin: -10px 0 0 542px; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
