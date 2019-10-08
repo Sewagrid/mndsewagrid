@@ -1,0 +1,785 @@
+.main{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.page_border{
+    margin: 20px 20px 20px 20px;
+    height: 1120px;
+    background-color: #f5f5f5;
+}
+
+.list_left{
+    float: left;
+    margin-top: 120px;
+    margin-right: 20px;
+    font-size: 18px;
+    width: 10%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding-bottom: 5px;
+    font-family: freightsans_regular,helvetica neue,helvetica,arial,sans-serif;
+}
+
+.list_right {
+    float: left;
+    margin-top: 120px;
+    margin-right: 20px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    width: 10%;
+    list-style-type: none;
+    padding-bottom: 5px;
+    text-align: right;
+    font-family: freightsans_regular, helvetica neue, helvetica, arial, sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.list_img{
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 67.2px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+h1{
+    font-size: 84px;
+    word-spacing: 1px;
+    line-height: 90px;
+    font-family: neuzeitgrobold,sans-serif;
+    text-transform: none;
+    letter-spacing: -3px;
+    color: #181818;
+    text-align: center;
+    margin: 60px 0 0;
+    clear: both;
+}
+
+h2{
+    margin-top: 1.5em;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 24px;
+    word-spacing: 1px;
+    font-family: freightsans_regular, "helvetica neue", helvetica, arial, sans-serif;;
+    font-weight: 300;
+    line-height: 32px;
+    color: #6b6b6b;
+}
+
+.list_right:hover{
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #16a6b6;
+    list-style-type: none;
+    transition: all 275ms;
+    border-bottom: 1px solid #16a6b6;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.list_left:hover{
+    float: left;
+    text-align: left;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #16a6b6;
+    list-style-type: none;
+    border-bottom: 1px solid #16a6b6;
+    transition: all 275ms;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.hex {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    margin-top: 110px;
+    border-right: 20px solid transparent;
+}
+.example_img {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/1616190654.png);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+.inner-hex-1 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+.inner-hex-1:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px,0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+.inner-hex-2 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+.inner-hex-2:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px,40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.hex2 {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    margin-top: 110px;
+    border-right: 20px solid transparent;
+}
+
+.example_img2 {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/1306190728.png);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+
+.inner-hex-1_2 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-1_2:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px,0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.inner-hex-2_2 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-2_2:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px,40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.hex3 {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    margin-top: 110px;
+    border-right: 20px solid transparent;
+}
+
+.example_img3 {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/2019597669.png);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+
+.inner-hex-1_3 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-1_3:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px,0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.inner-hex-2_3 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-2_3:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px,40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.hex4 {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    margin-top: 110px;
+    border-right: 20px solid transparent;
+}
+
+.example_img4 {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/1634883749.png);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+
+.inner-hex-1_4 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-1_4:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px, 0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.inner-hex-2_4 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-2_4:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px, 40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.hex5 {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    margin-top: 110px;
+}
+
+.example_img5 {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/252340614.jpg);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+
+.inner-hex-1_5 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-1_5:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px,0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.inner-hex-2_5 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-2_5:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px,40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+h4{
+    margin-top: 80px;
+}
+
+.hex6 {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    border-right: 20px solid transparent;
+}
+
+.example_img6 {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/1384166636.jpg);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+
+.inner-hex-1_6 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-1_6:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px,0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.inner-hex-2_6 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-2_6:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px, 40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.hex7 {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    border-right: 20px solid transparent;
+}
+
+.example_img7 {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/35605953.jpg);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+
+.inner-hex-1_7 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-1_7:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px,0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.inner-hex-2_7 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-2_7:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px, 40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.hex8 {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    border-right: 20px solid transparent;
+}
+
+.example_img8 {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/886051797.jpg);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+
+.inner-hex-1_8 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-1_8:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px,0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.inner-hex-2_8 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-2_8:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px, 40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.hex9 {
+    opacity: 1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+}
+
+.example_img9 {
+    background-image: url(https://builtbybuffalo.com/uploads/work/300/1874800766.jpg);
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    display: block;
+    border: none;
+    height: 110px;
+    line-height: 220px;
+}
+
+.inner-hex-1_9 {
+    z-index: -1;
+    transform: rotate(60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-1_9:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-60deg) translate(-110px,0);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.inner-hex-2_9 {
+    z-index: -2;
+    transform: rotate(-60deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: inherit;
+}
+
+.inner-hex-2_9:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(60deg) translate(40px, 40px);
+    transform-origin: 0 0;
+    height: 220px;
+    width: 220px;
+}
+
+.hex:hover{
+    cursor: pointer;
+}
+
+.hex2:hover{
+    cursor: pointer;
+}
+
+.hex3:hover{
+    cursor: pointer;
+}
+
+.hex4:hover{
+    cursor: pointer;
+}
+
+.hex5:hover{
+    cursor: pointer;
+}
+
+.hex6:hover{
+    cursor: pointer;
+}
+
+.hex7:hover{
+    cursor: pointer;
+}
+
+.hex8:hover{
+    cursor: pointer;
+}
+
+.hex9:hover{
+    cursor: pointer;
+}
