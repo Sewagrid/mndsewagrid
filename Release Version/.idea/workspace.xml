@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f99fa0a9-c4e1-4fbc-b7df-34fb337ff194" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RhmG9IL2Wcf8fBU00qNTm2oTh7" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pics" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MNDS\PhpstormProjects\Project\src\pics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MNDS\PhpstormProjects\Project\src\pics" />
+      <recent name="C:\Users\MNDS\PhpstormProjects\Project\example" />
+      <recent name="C:\Users\MNDS\PhpstormProjects\Project\src" />
+      <recent name="C:\Users\MNDS\PhpstormProjects\Project\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gulp.js.autoprefix - плагин">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoprefix - плагин" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>autoprefix - плагин</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="gulp-imagemin" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>gulp-imagemin</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="gulp-uglify" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>gulp-uglify</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="minify-css" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>minify-css</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="minify" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>minify</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.gulp-imagemin" />
+        <item itemvalue="Gulp.js.minify-css" />
+        <item itemvalue="Gulp.js.minify" />
+        <item itemvalue="Gulp.js.autoprefix - плагин" />
+        <item itemvalue="Gulp.js.gulp-uglify" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f99fa0a9-c4e1-4fbc-b7df-34fb337ff194" name="Default Changelist" comment="" />
+      <created>1570127603837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570127603837</updated>
+      <workItem from="1570127607379" duration="1785000" />
+      <workItem from="1570129493517" duration="1783000" />
+      <workItem from="1570131352770" duration="9000" />
+      <workItem from="1570202953459" duration="1729000" />
+      <workItem from="1570218659405" duration="1413000" />
+      <workItem from="1570220709650" duration="115000" />
+      <workItem from="1570278729737" duration="1731000" />
+      <workItem from="1570300941852" duration="824000" />
+      <workItem from="1570302012366" duration="1452000" />
+      <workItem from="1570355210475" duration="1765000" />
+      <workItem from="1570357048271" duration="645000" />
+      <workItem from="1570359031000" duration="1825000" />
+      <workItem from="1570360979889" duration="1800000" />
+      <workItem from="1570362984251" duration="1852000" />
+      <workItem from="1570376109105" duration="1768000" />
+      <workItem from="1570377913930" duration="1788000" />
+      <workItem from="1570379780052" duration="1673000" />
+      <workItem from="1570381700091" duration="1660000" />
+      <workItem from="1570383453217" duration="618000" />
+      <workItem from="1570390659237" duration="1798000" />
+      <workItem from="1570392515748" duration="1789000" />
+      <workItem from="1570394323625" duration="412000" />
+      <workItem from="1570451640947" duration="1321000" />
+      <workItem from="1570453407599" duration="1747000" />
+      <workItem from="1570455172972" duration="1803000" />
+      <workItem from="1570457031267" duration="1788000" />
+      <workItem from="1570458892502" duration="1778000" />
+      <workItem from="1570460834561" duration="1745000" />
+      <workItem from="1570462668510" duration="1745000" />
+      <workItem from="1570464434227" duration="921000" />
+      <workItem from="1570473461398" duration="1787000" />
+      <workItem from="1570475301436" duration="1720000" />
+      <workItem from="1570477206367" duration="1788000" />
+      <workItem from="1570479139017" duration="658000" />
+      <workItem from="1570540167932" duration="1686000" />
+      <workItem from="1570541937538" duration="1740000" />
+      <workItem from="1570543719158" duration="1785000" />
+      <workItem from="1570545525752" duration="1787000" />
+      <workItem from="1570547337979" duration="1778000" />
+      <workItem from="1570549196396" duration="1752000" />
+      <workItem from="1570550999139" duration="1786000" />
+      <workItem from="1570552829668" duration="1783000" />
+      <workItem from="1570554639976" duration="1783000" />
+      <workItem from="1570556527020" duration="1684000" />
+      <workItem from="1570558340129" duration="1171000" />
+      <workItem from="1570561992817" duration="1607000" />
+      <workItem from="1570563732783" duration="1753000" />
+      <workItem from="1570565530477" duration="1789000" />
+      <workItem from="1570567369436" duration="1798000" />
+      <workItem from="1570569191027" duration="1791000" />
+      <workItem from="1570571010441" duration="1791000" />
+      <workItem from="1570574847218" duration="377000" />
+      <workItem from="1570622232175" duration="1658000" />
+      <workItem from="1570624104960" duration="2248000" />
+      <workItem from="1570626765422" duration="1462000" />
+      <workItem from="1570628918213" duration="746000" />
+      <workItem from="1570629790358" duration="1793000" />
+      <workItem from="1570631900949" duration="921000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
